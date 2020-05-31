@@ -46,3 +46,13 @@ header h2 {
 .carousel {
     border: solid #5637DD;
 }
+.navbar-dark {
+    background-color: #901CAD;
+}
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+
+}
