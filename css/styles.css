@@ -20,17 +20,24 @@ header h2 {
   background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
   color: white; }
 
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
 .navbar {
   background-color: #901CAD; }
 
-.carousel {
-  border: solid #5637dd; }
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid #5637DD; }
+  border: solid #5637dd; }
 
 .navbar-dark {
   background-color: #901CAD; }
@@ -39,3 +46,11 @@ header h2 {
   position: absolute;
   right: 0;
   bottom: 0; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
